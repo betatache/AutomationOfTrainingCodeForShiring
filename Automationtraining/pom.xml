@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -19,7 +20,16 @@
   </properties>
 
   <dependencies>
+  
+  <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.0.0</version>
+    <scope>test</scope>
+</dependency>
+   <dependencies>
     <dependency>
+    
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
@@ -32,7 +42,53 @@
     <version>3.141.59</version>
 </dependency>
  
+ <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/poi/poi -->
+<dependency>
+    <groupId>poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.1-FINAL</version>
+</dependency>
+
+ <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.0.3</version>
+</dependency>
  
+ <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.4.0</version>
+    <scope>test</scope>
+</dependency>
+ <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured-common -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured-common</artifactId>
+    <version>4.4.0</version>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
  
  
   </dependencies>

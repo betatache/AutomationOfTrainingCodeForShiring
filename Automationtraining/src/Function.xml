@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ädhoc" >
+<listeners>
+<listener class-name="PeopleNTech.Automationtraining.listners"></listener>
+
+</listeners>
+<test name="RegressionOfChrome">
+<parameter name="browser" value="Chrome"></parameter>
+<parameter name= "wbsite" value="https://www.facebook.com"></parameter>
+<classes>
+<!--  <class name="PeopleNTech.Automationtraining.SignInAmazon"></class>
+<class name="PeopleNTech.Automationtraining.SignInAmazon2"></class>-->
+<class name="PeopleNTech.Automationtraining.Providing"></class>-->
+<class name="PeopleNTech.Automationtraining.FindElements"></class>
+</classes>
+</test>
+<test name="RegressionOfEdge">
+<parameter name="browser" value="Edge"></parameter>
+<parameter name= "wbsite" value="https://www.facebook.com"></parameter>
+<classes>
+<!--  <class name="PeopleNTech.Automationtraining.SignInAmazon"></class>
+<class name="PeopleNTech.Automationtraining.SignInAmazon2"></class> parallel="tests" thread-count="6" -->
+<class name="PeopleNTech.Automationtraining.Providing"></class>-->
+<class name="PeopleNTech.Automationtraining.FindElements"></class>
+</classes>
+</test>
+</suite>
